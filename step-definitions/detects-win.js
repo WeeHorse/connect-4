@@ -48,9 +48,6 @@ module.exports = function(){
     await sleep(1000); // small wait needed
     assert.equal(text, 'Avbryt spelet', 'The game did not start!');
     await sleep(sleepTime * 2);
-    if(text !== 'XAvbryt spelet'){
-      process.exit(1); // failure code
-    }
   });
 
   // Scenarios
@@ -66,6 +63,8 @@ module.exports = function(){
     await sleep(sleepTime * 10);
 
     // MORE TO WRITE HERE!
+
+    process.exit(1); // failure code
 
   });
 
