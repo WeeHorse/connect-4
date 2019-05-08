@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="ourbot-vs-theirbot;both-bots-play" tests="9" failures="0" skipped="7">
-        <properties>
-            <property name="URI" value="/Applications/AMPPS/www/MVT18/connect-4-initial/features/distributed-bots-play.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I goto our game page" classname="ourbot-vs-theirbot;both-bots-play" time="2.087284325">
-        </testcase>
-        <testcase name="And that I goto their game page" classname="ourbot-vs-theirbot;both-bots-play" time="0.00014343">
-        </testcase>
-        <testcase name="When I choose to play OurBot against TheirBot as a human player on our page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I choose to play TheirBot against OurBot as a human player on their page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then both pages should be ready" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When OurBot makes a move on our page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the move is played on their page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then their Bot should make a move on their page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the move shall be played on our page" classname="ourbot-vs-theirbot;both-bots-play">
-            <skipped message="">
-            </skipped>
-        </testcase>
+    <testsuite>
     </testsuite>
 </testsuites>

@@ -3,13 +3,13 @@ let {$, sleep} = require('./funcs');
 let sleepTime = 500;
 
 module.exports = function(){
- 
+
   // Background
 
   this.Given(/^that I goto the game page$/, async function () {
     await helpers.loadPage('http://localhost:3000/game');
   });
-  
+
   this.When(/^I choose to play as two human players$/, async function () {
     let typeChoiceButtons = await $('.type-choice-btn' );
     for(let typeChoiceButton of typeChoiceButtons){
@@ -48,6 +48,9 @@ module.exports = function(){
     await sleep(1000); // small wait needed
     assert.equal(text, 'Avbryt spelet', 'The game did not start!');
     await sleep(sleepTime * 2);
+    if(text !== 'Avbryt spelet'){
+      process.exit(1); // failure code
+    }
   });
 
   // Scenarios
@@ -55,7 +58,7 @@ module.exports = function(){
   this.When(/^the first player plays (\d+) bricks in a row horizontally$/, async function (brickstoWin) {
 
     // NOTE: Only began this code, by playing one brick
-    let slots = await $('.slot'); 
+    let slots = await $('.slot');
     // clicking slots[0] is putting a coin in column 1
     // clicking slots[1] is putting a coin in column 2
     await slots[3].click();

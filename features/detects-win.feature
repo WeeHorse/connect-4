@@ -1,12 +1,12 @@
-# Feature: Detect win
-#   As user I would like the app to detect all ways of winning (horizantal, vertical, diagonal in two directions).
+Feature: Detect win
+  As user I would like the app to detect all ways of winning (horizantal, vertical, diagonal in two directions).
 
-# Background:
-#   Given that I goto the game page
-#   When I choose to play as two human players
-#   And with two different names
-#   And press the Börja spela-button
-#   Then the game should start
+Background:
+  Given that I goto the game page
+  When I choose to play as two human players
+  And with two different names
+  And press the Börja spela-button
+  Then the game should start
 
 # Scenario: Horizontal win
 #   When the first player plays 4 bricks in a row horizontally
