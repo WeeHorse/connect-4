@@ -62,10 +62,16 @@ module.exports = function(){
 
     await sleep(sleepTime * 10);
 
-    // MORE TO WRITE HERE!
-    console.log(1);
-    process.exit(1); // failure code
+    // // MORE TO WRITE HERE!
+    // if(true){
+    //   process.exit(0); // success code
+    // }else{
+    //   process.exit(1); // failure code
+    // }
+  });
 
+  this.Then(/^he\/she should win$/, function () {
+    assert.equal('a','b','Not equal!')
   });
 
 }

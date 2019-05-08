@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite>
+    <testsuite name="detect-win;horizontal-win" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Applications/AMPPS/www/MVT18/connect-4-initial/features/detects-win.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I goto the game page" classname="detect-win;horizontal-win" time="1.751867465">
+        </testcase>
+        <testcase name="When I choose to play as two human players" classname="detect-win;horizontal-win" time="2.274794967">
+        </testcase>
+        <testcase name="And with two different names" classname="detect-win;horizontal-win" time="2.199695112">
+        </testcase>
+        <testcase name="And press the Börja spela-button" classname="detect-win;horizontal-win" time="1.020686466">
+        </testcase>
+        <testcase name="Then the game should start" classname="detect-win;horizontal-win" time="2.035973793">
+        </testcase>
+        <testcase name="When the first player plays 4 bricks in a row horizontally" classname="detect-win;horizontal-win" time="5.07996436">
+        </testcase>
+        <testcase name="Then he/she should win" classname="detect-win;horizontal-win" time="0.000141735">
+        </testcase>
     </testsuite>
 </testsuites>

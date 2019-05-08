@@ -8,9 +8,9 @@ Background:
   And press the Börja spela-button
   Then the game should start
 
-# Scenario: Horizontal win
-#   When the first player plays 4 bricks in a row horizontally
-#   Then he/she should win
+Scenario: Horizontal win
+  When the first player plays 4 bricks in a row horizontally
+  Then he/she should win
 
 #Scenario: Vertical win
 #  When the first player plays 4 bricks in a row vertical
