@@ -63,7 +63,7 @@ module.exports = function(){
     await sleep(sleepTime * 10);
 
     // MORE TO WRITE HERE!
-
+    console.log(1);
     process.exit(1); // failure code
 
   });
