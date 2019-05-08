@@ -14,7 +14,7 @@
             "name": "that I goto our game page",
             "result": {
               "status": "passed",
-              "duration": 1858995044
+              "duration": 2087284325
             },
             "line": 5,
             "match": {
@@ -27,11 +27,11 @@
             "name": "that I goto their game page",
             "result": {
               "status": "passed",
-              "duration": 115746
+              "duration": 143430
             },
             "line": 6,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:20"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:21"
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "line": 7,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:24"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:25"
             }
           },
           {
@@ -55,7 +55,7 @@
             },
             "line": 8,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:29"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:30"
             }
           },
           {
@@ -67,7 +67,7 @@
             },
             "line": 9,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:34"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:35"
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "line": 12,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:41"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:42"
             }
           },
           {
@@ -91,7 +91,7 @@
             },
             "line": 13,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:46"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:47"
             }
           },
           {
@@ -103,7 +103,7 @@
             },
             "line": 14,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:51"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:52"
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "line": 15,
             "match": {
-              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:56"
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:57"
             }
           },
           {
@@ -123,7 +123,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 200401664
+              "duration": 122328064
             },
             "hidden": true,
             "match": {
