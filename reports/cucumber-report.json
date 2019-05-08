@@ -1,0 +1,145 @@
+[
+  {
+    "description": "  As developer of OurBot I would like to know if it can beat TheirBot",
+    "elements": [
+      {
+        "id": "ourbot-vs-theirbot;both-bots-play",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Both bots play",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I goto our game page",
+            "result": {
+              "status": "passed",
+              "duration": 1858995044
+            },
+            "line": 5,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I goto their game page",
+            "result": {
+              "status": "passed",
+              "duration": 115746
+            },
+            "line": 6,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose to play OurBot against TheirBot as a human player on our page",
+            "result": {
+              "status": "pending"
+            },
+            "line": 7,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose to play TheirBot against OurBot as a human player on their page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "both pages should be ready",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "OurBot makes a move on our page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the move is played on their page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "their Bot should make a move on their page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the move shall be played on our page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/distributed-bots-play.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 200401664
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT18/connect-4-initial/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ourbot-vs-theirbot",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "OurBot vs TheirBot",
+    "tags": [],
+    "uri": "/Applications/AMPPS/www/MVT18/connect-4-initial/features/distributed-bots-play.feature"
+  }
+]
