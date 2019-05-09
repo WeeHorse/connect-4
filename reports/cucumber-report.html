@@ -270,7 +270,7 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">rep-html</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 0</span>
+            <span class="label label-success" title=scenarios>Passed: 1</span>
             <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Thu May 09 2019 11:18:40 GMT+0200 (Central European Summer Time)</div>
+      <div class="generated-on">Thu May 09 2019 11:24:55 GMT+0200 (Central European Summer Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -303,13 +303,13 @@ pre {
                     <a data-toggle="collapse" href="#collapseFeaturerep_html0">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>OurBot vs TheirBot
+                        <b>Feature:</b>Detect win
                         <span class="label-container">
+              <span class="label label-success"
+                                                         title="1 Scenarios Passed">1</span>
               
               
               
-              <span class="label label-default"
-                                                          title="1 Scenarios Pending">1</span>
               
               
                         </span>
@@ -319,7 +319,7 @@ pre {
             <div id="collapseFeaturerep_html0" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  As developer of OurBot I would like to know if it can beat TheirBot</div>
+                    <div class="description">  As user I would like the app to detect all ways of winning (horizantal, vertical, diagonal in two directions).</div>
                     
                     
                     <div class="panel panel-default">
@@ -334,20 +334,18 @@ pre {
                                    href="#collapseScenariorep_html0_0">
                                     <div>
 
-                                        <div style="padding-right: 70px">
+                                        <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>Both bots play
+                                            <b>Scenario:</b>Horizontal win
                                         </div>
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="2 Steps Passed">2</span>
+                                                               title="6 Steps Passed">6</span>
                               
-                              <span class="label label-default"
-                                                                title="1 Steps Pending">1</span>
-                              <span class="label label-warning"
-                                                                title="6 Steps Skipped">6</span>
+                              
+                              
                               
                               
                             </span>
@@ -372,11 +370,47 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> that I goto our game page</span>
+                          <span> that I goto the game page</span>
                             
                           
                               <span class="step-duration">
-                               1s 910ms
+                               1s 834ms
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">When </span>
+                          <span> I choose to play as two human players</span>
+                            
+                          
+                              <span class="step-duration">
+                               2s 297ms
                               </span>
                             
                          
@@ -408,11 +442,11 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> that I goto their game page</span>
+                          <span> with two different names</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               2s 204ms
                               </span>
                             
                          
@@ -438,53 +472,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-default" title="Pending"><i
-                                            class="glyphicon glyphicon-exclamation-sign"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">When </span>
-                          <span> I choose to play OurBot against TheirBot as a human player on our page</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> I choose to play TheirBot against OurBot as a human player on their page</span>
+                          <span> press the Börja spela-button</span>
                             
                           
                               <span class="step-duration">
-                               0s
+                               1s 15ms
                               </span>
                             
                          
@@ -510,17 +508,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> both pages should be ready</span>
+                          <span> the game should start</span>
                             
                           
                               <span class="step-duration">
-                               0s
+                               2s 30ms
                               </span>
                             
                          
@@ -546,17 +544,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> OurBot makes a move on our page</span>
+                          <span> the first player plays 4 bricks in a row horizontally</span>
                             
                           
                               <span class="step-duration">
-                               0s
+                               5s 91ms
                               </span>
                             
                          
@@ -582,49 +580,13 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> the move is played on their page</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> their Bot should make a move on their page</span>
+                          <span> he/she should win</span>
                             
                           
                               <span class="step-duration">
@@ -637,42 +599,13 @@ pre {
                       </span>
                                 
                                 
-
+                                <pre class=info>
+<br>Then(/^he/she should win$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                                     
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-warning" title="Skipped"><i
-                                            class="glyphicon glyphicon-minus"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> the move shall be played on our page</span>
-                            
-                          
-                              <span class="step-duration">
-                               0s
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
 
                                     
 
@@ -724,9 +657,9 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
                                                             "failed" : 0,
-                                                            "passed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
-                                                            "pending" : 1,
+                                                            "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
                                                         })
@@ -734,9 +667,9 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 0,
-                                                            "passed" : 0,
+                                                            "passed" : 1,
                                                             "notdefined" : 0,
-                                                            "pending" : 1,
+                                                            "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
                                                         })
