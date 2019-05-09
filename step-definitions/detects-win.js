@@ -68,7 +68,7 @@ module.exports = function(){
 
   this.Then(/^he\/she should win$/, async function () {
     // Let us fake this! We win!
-    assert.equal(1,1,'Dummy error message')
+    assert.equal(1,0,'Dummy error message')
   });
 
 }
