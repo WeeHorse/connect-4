@@ -58,7 +58,7 @@ module.exports = function(){
     let slots = await $('.slot');
     // clicking slots[0] is putting a coin in column 1
     // clicking slots[1] is putting a coin in column 2
-    await slots[3].click();
+    //await slots[3].click();
 
     await sleep(sleepTime * 10);
 
