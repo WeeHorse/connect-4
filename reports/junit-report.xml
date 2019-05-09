@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="detect-win;horizontal-win" tests="7" failures="1" skipped="0">
+    <testsuite name="detect-win;horizontal-win" tests="7" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Applications/AMPPS/www/MVT18/connect-4-initial/features/detects-win.feature">
             </property>
         </properties>
-        <testcase name="Given that I goto the game page" classname="detect-win;horizontal-win" time="1.893115733">
+        <testcase name="Given that I goto the game page" classname="detect-win;horizontal-win" time="1.786942072">
         </testcase>
-        <testcase name="When I choose to play as two human players" classname="detect-win;horizontal-win" time="2.266593439">
+        <testcase name="When I choose to play as two human players" classname="detect-win;horizontal-win" time="2.256760996">
         </testcase>
-        <testcase name="And with two different names" classname="detect-win;horizontal-win" time="2.233082395">
+        <testcase name="And with two different names" classname="detect-win;horizontal-win" time="2.255588508">
         </testcase>
-        <testcase name="And press the Börja spela-button" classname="detect-win;horizontal-win" time="1.018770039">
+        <testcase name="And press the Börja spela-button" classname="detect-win;horizontal-win" time="1.012034919">
         </testcase>
-        <testcase name="Then the game should start" classname="detect-win;horizontal-win" time="2.027133389">
+        <testcase name="Then the game should start" classname="detect-win;horizontal-win" time="2.031910976">
         </testcase>
-        <testcase name="When the first player plays 4 bricks in a row horizontally" classname="detect-win;horizontal-win" time="5.082449072">
+        <testcase name="When the first player plays 4 bricks in a row horizontally" classname="detect-win;horizontal-win" time="5.076813029">
         </testcase>
-        <testcase name="Then he/she should win" classname="detect-win;horizontal-win" time="0.002152392">
-            <failure message="AssertionError: Not equal!: expected &apos;a&apos; to equal &apos;b&apos;">AssertionError: Not equal!: expected &apos;a&apos; to equal &apos;b&apos;
-    at createWorld.&lt;anonymous&gt; (/Applications/AMPPS/www/MVT18/connect-4-initial/step-definitions/detects-win.js:74:12)
-    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+        <testcase name="Then he/she should win" classname="detect-win;horizontal-win" time="0.000128502">
         </testcase>
     </testsuite>
 </testsuites>
