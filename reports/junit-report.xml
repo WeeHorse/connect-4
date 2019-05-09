@@ -2,12 +2,12 @@
 <testsuites>
     <testsuite name="ourbot-vs-theirbot;both-bots-play" tests="9" failures="0" skipped="7">
         <properties>
-            <property name="URI" value="/Applications/AMPPS/www/MVT18/connect-4-initial/features/distributed-bots-play.feature">
+            <property name="URI" value="/Applications/AMPPS/www/MVT18/connect-4/features/distributed-bots-play.feature">
             </property>
         </properties>
-        <testcase name="Given that I goto our game page" classname="ourbot-vs-theirbot;both-bots-play" time="1.858995044">
+        <testcase name="Given that I goto our game page" classname="ourbot-vs-theirbot;both-bots-play" time="1.910936854">
         </testcase>
-        <testcase name="And that I goto their game page" classname="ourbot-vs-theirbot;both-bots-play" time="0.000115746">
+        <testcase name="And that I goto their game page" classname="ourbot-vs-theirbot;both-bots-play" time="0.000223957">
         </testcase>
         <testcase name="When I choose to play OurBot against TheirBot as a human player on our page" classname="ourbot-vs-theirbot;both-bots-play">
             <skipped message="">
