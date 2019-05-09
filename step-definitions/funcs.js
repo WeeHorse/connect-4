@@ -1,5 +1,5 @@
 module.exports = {
-  $: async function (selector, driver = driver){
+  $: async function (selector){
     let elements = await driver.findElements(by.css(selector));
     if(elements.length === 0){
       return null;
